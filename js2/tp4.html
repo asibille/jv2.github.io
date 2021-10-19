@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Exercice 6</title>
+<script type="text/javascript">
+	function calculate(){
+		var x=parseInt(document.getElementById("first").value);
+	}
+
+</script>
+
+
+
+
+
+<body>
+<center><h1> Facture en Javascript </h1></center>
+<form>
+	<table border="2">
+		<tr>
+		<td> Article: </td>
+		<td> Prix :</td>
+		<td> Quantité :</td>
+        <td> Résultat :</td>
+        </tr>
+        <tr>
+        	<td> <input  id="first" type="text" name="first" placeholder="saisir la désignation"></td>
+        	<td><input id="second" type="text" name="second" value="0"></td>
+        	<td><input id="third" type="text" name="third" value="0"></td>
+        	<td><input id="answer" type="text" name="answer" value="0"></td>
+        	</tr>
+        	<tr>
+        	<td> <input  id="first1" type="text" name="first1" placeholder="saisir la désignation"></td>
+        	<td><input id="second1" type="text" name="second1" value="0"></td>
+        	<td><input id="third1" type="text" name="third1" value="0"></td>
+        	<td><input id="answer1" type="text" name="answer1" value="0"></td>
+        	</tr>
+        	<tr>
+        	<td> <input  id="first2" type="text" name="first2" placeholder="saisir la désignation"></td>
+        	<td><input id="second2" type="text" name="second2" value="0"></td>
+        	<td><input id="third2" type="text" name="third2" value="0"></td>
+        	<td><input id="answer2" type="text" name="answer2" value="0"></td>
+        	</tr>
+        	<tr>
+        	<td></td>
+        	<td><input type="reset" name="t1"></td>
+        	<td><input onclick="calculate()" type="button" value="Calculer"></td>
+        	<td><input id="total" type="text" name="total"></td>
+        	</tr>
+
+	</table>
+</form>
+
+
+
+</body>
+</html>
